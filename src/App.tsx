@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { ArrowRight, Play, Lightbulb, Wallet, Users, CheckCircle, Loader2, ShieldAlert, Terminal, Activity } from 'lucide-react';
+import React, { useState } from 'react';
+import { ArrowRight,  Lightbulb, Wallet, Users, CheckCircle, Loader2, ShieldAlert, Terminal, Activity } from 'lucide-react';
 
 // --- LOGIC HOOKS (From your "Technical Handoff" Screenshot) ---
 
@@ -296,9 +296,8 @@ const Hero = () => (
           <span className="bg-yellow-200 p-1 rounded">⚠️</span> Engineering
         </div>
         <h1 className="text-5xl md:text-7xl font-bold leading-[0.9] tracking-tighter">
-          Engineering a <br />
-          new economic <br />
-          paradigm
+          TRUSTFUND 
+        
         </h1>
         <p className="text-gray-600 max-w-md text-sm md:text-base leading-relaxed">
           We are a digital asset and blockchain leader helping institutions, startups, and qualified individuals unlock a changing economy.
